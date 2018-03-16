@@ -71,7 +71,7 @@ int main(int argc, char **argv)
         }
 
         printf("%c",character);
-        fflush(stdout);
+        printf("\n");
         sleep(2);
 	if (character == '\0')
 	{
